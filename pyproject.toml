@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "man-and-glass"
+version = "0.1.0"
+description = ""
+authors = ["Maks <kmv80@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "man_and_glass"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
