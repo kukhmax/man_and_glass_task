@@ -8,7 +8,7 @@
   Please use MVC pattern and SOLID principal
 
   ## Run script
-  `poetry install`
+  `poetry install` <br>
   `poetry run python3 man_and_glass/main.py`
 
   ## Output example
