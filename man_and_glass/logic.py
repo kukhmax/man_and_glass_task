@@ -122,9 +122,9 @@ class DrinkingView:
 
     def view_drink(self):
         """View of the drinking process"""
-        print(f"{self.thirsty.name.capitalize()} can drink {self.thirsty.thirst_indicator} ml liquid")  # noqa E501
+        print(f"{self.thirsty.name.capitalize()} can drink {self.thirsty.thirst_indicator} ml of liquid")  # noqa E501
         self.choose_volume_liquid()
         volume_to_drink = self.choose_volume_to_drink()
         self.drinking.drink(volume_to_drink)
-        print(f"{self.thirsty.name.capitalize()} can drink {self.thirsty.thirst_indicator} liquid")  # noqa E501
+        print(f"{self.thirsty.name.capitalize()} can drink {self.thirsty.thirst_indicator} ml of liquid")  # noqa E501
         print(f"There is {self.container.liquid_volume} ml of liquid left in the glass")  # noqa E501
