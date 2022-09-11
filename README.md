@@ -13,13 +13,13 @@
 
   ## Output example
 
-  `Man can drink 1000 ml liquid<br>
-Enter the amount of liquid in glass, please<br>
-400<br>
-Volume exceeds the required 200 ml<br>
-Enter the amount of liquid in glass, please<br>
-200<br>
-Enter the amout of liquid to drink<br>
-30<br>
-Man can drink 970 liquid<br>
-There is 170 ml of liquid left in the glass`<br>
+  `Man can drink 1000 ml liquid`<br>
+`Enter the amount of liquid in glass, please`<br>
+`400`<br>
+`Volume exceeds the required 200 ml`<br>
+`Enter the amount of liquid in glass, please`<br>
+`200`<br>
+`Enter the amout of liquid to drink`<br>
+`30`<br>
+`Man can drink 970 liquid`<br>
+`There is 170 ml of liquid left in the glass`<br>
